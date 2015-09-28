@@ -12,7 +12,8 @@ $ npm install --save swint-proc-ops
 * `server`
   * `enabled`: `Boolean`, default: `false`
   * `port`: `Number`, default: `33233`
-  * `protocol`: `String`, default: `https`
+  * `secure`: `Boolean`, default: `true`
+  * `http2`: `Boolean`, default: `false`
   * `pass`: `String`, default: `''`
   * `certs`
     * `key`: `String`, default: `''`
@@ -26,4 +27,14 @@ $ npm install --save swint-proc-ops
 
 ## Usage
 ```javascript
+swintProcOps({
+	server: {
+		enabled: true
+	},
+	keyBind: {
+		enabled: true
+	}
+}, function() {
+	// When operator is ready...
+});
 ```

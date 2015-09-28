@@ -15,11 +15,12 @@ describe('Exception handling', function() {
 describe('Basic feature', function() {
 	before(function(done) {
 		swintProcOps({
-			server: true,
-			serverConfig: {
-				http2: false
+			server: {
+				enabled: true
 			},
-			keyBind: true
+			keyBind: {
+				enabled: true
+			}
 		}, function() {
 			process.on('message', function(msg) {
 				if(msg.type === 'control') {
