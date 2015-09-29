@@ -4,24 +4,18 @@ var assert = require('assert'),
 
 global.swintVar.printLevel = 5;
 
-describe('Exception handling', function() {
-	it('Should have callback', function() {
-		assert.throws(function() {
-			swintProcOps({});
-		});
-	});
-});
-
 describe('Basic feature', function() {
 	before(function(done) {
-		swintProcOps({
-			server: {
-				enabled: true
-			},
-			keyBind: {
-				enabled: true
-			}
-		}, function() {
+		var procOps = swintProcOps({
+				server: {
+					enabled: true
+				},
+				keyBind: {
+					enabled: true
+				}
+			});
+
+		procOps.start(function() {
 			process.on('message', function(msg) {
 				if(msg.type === 'control') {
 					switch(msg.data) {

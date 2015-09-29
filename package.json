@@ -1,6 +1,6 @@
 {
   "name": "swint-proc-ops",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Process operator for Swint",
   "main": "lib/index.js",
   "scripts": {
