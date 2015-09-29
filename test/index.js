@@ -2,7 +2,7 @@ var assert = require('assert'),
 	request = require('request'),
 	swintProcOps = require('../lib');
 
-// global.swintVar.printLevel = 5;
+global.swintVar.printLevel = 5;
 
 describe('Exception handling', function() {
 	it('Should have callback', function() {
