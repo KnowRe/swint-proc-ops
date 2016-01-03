@@ -21,6 +21,9 @@
   "bugs": {
     "url": "https://github.com/KnowRe/swint-proc-ops/issues"
   },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "homepage": "https://github.com/KnowRe/swint-proc-ops",
   "dependencies": {
     "body-parser": "^1.14.0",
@@ -29,7 +32,7 @@
     "keypress": "^0.2.1",
     "method-override": "^2.3.5",
     "sprintf": "^0.1.5",
-    "swint-helper": "^0.1.7"
+    "swint-helper": "1.x"
   },
   "devDependencies": {
     "mocha": "*",
