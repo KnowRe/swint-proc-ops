@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KnowRe/swint-proc-ops.git"
+    "url": "https://github.com/KnowRe-Dev/swint-proc-ops.git"
   },
   "keywords": [
     "swint",
@@ -19,12 +19,12 @@
   "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KnowRe/swint-proc-ops/issues"
+    "url": "https://github.com/KnowRe-Dev/swint-proc-ops/issues"
   },
   "engines": {
     "node": ">=4.0.0"
   },
-  "homepage": "https://github.com/KnowRe/swint-proc-ops",
+  "homepage": "https://github.com/KnowRe-Dev/swint-proc-ops",
   "dependencies": {
     "body-parser": "^1.14.2",
     "express": "^4.13.4",
