@@ -26,17 +26,17 @@
   },
   "homepage": "https://github.com/KnowRe-Dev/swint-proc-ops",
   "dependencies": {
-    "body-parser": "^1.15.0",
+    "body-parser": "^1.15.1",
     "express": "^4.13.4",
-    "http2": "^3.3.2",
+    "http2": "^3.3.4",
     "keypress": "^0.2.1",
-    "method-override": "^2.3.5",
+    "method-override": "^2.3.6",
     "sprintf": "^0.1.5",
     "swint-helper": "1.x"
   },
   "devDependencies": {
-    "mocha": "^2.4.5",
-    "eslint": "^2.6.0",
-    "request": "^2.69.0"
+    "mocha": "^2.5.3",
+    "eslint": "^2.11.1",
+    "request": "^2.72.0"
   }
 }
