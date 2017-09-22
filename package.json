@@ -28,7 +28,7 @@
   "dependencies": {
     "body-parser": "1.18.1",
     "express": "4.15.4",
-    "http2": "3.3.6",
+    "http2": "3.3.7",
     "keypress": "0.2.1",
     "method-override": "2.3.9",
     "sprintf": "0.1.5",
