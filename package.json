@@ -27,7 +27,7 @@
   "homepage": "https://github.com/KnowRe-Dev/swint-proc-ops",
   "dependencies": {
     "body-parser": "1.18.1",
-    "express": "4.15.4",
+    "express": "5.0.0-alpha.6",
     "http2": "3.3.6",
     "keypress": "0.2.1",
     "method-override": "2.3.9",
