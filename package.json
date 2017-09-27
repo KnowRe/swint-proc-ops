@@ -30,7 +30,7 @@
     "express": "4.15.4",
     "http2": "3.3.6",
     "keypress": "0.2.1",
-    "method-override": "2.3.9",
+    "method-override": "2.3.10",
     "sprintf": "0.1.5",
     "swint-helper": "1.2.7"
   },
